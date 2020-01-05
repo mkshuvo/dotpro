@@ -1,0 +1,247 @@
+/* blog codes start here */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900|Open+Sans');
+
+.navbar {
+  padding: 0% 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+
+.navbar-default .navbar-nav{
+  padding-top: 1%;
+}
+.navbar-default .navbar-nav>.active>a {
+  background: transparent !important;
+  color: #ead00d !important;
+}
+.navbar-default .navbar-nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff !important;
+}
+a.navbar-brand{
+  padding: 20px 15px !important;
+}
+.logo {
+  width: 150px;
+}
+
+.blog_banner{
+  background-image: url("../images/Overly.png");
+  background-position: center;
+  background-size: cover;
+
+  padding-bottom: 10%;
+}
+
+.blog_banner_h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.blog_banner_p{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+
+/* blog section 1 codes start here */
+
+.blog_section_1{
+  padding-top: 3%;
+}
+
+.blog_head_1{
+font-family: 'Montserrat', sans-serif;
+}
+
+.blog_blur_text{
+  font-family: 'Open Sans', sans-serif;
+  color:#999999;
+}
+
+.blog_blur_links{
+  font-family: 'Open Sans', sans-serif;
+  color: #999999;
+}
+.blog_blur_links:hover{
+  text-decoration: none;
+  color:#000;
+}
+
+.blog_text_1{
+  font-family: 'Open Sans', sans-serif;
+}
+.fa-quote-left{
+  font-size: 35px;
+}
+.fa-quote-right{
+  font-size: 35px;
+  margin-left: 90%;
+}
+.blog_section_quote{
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+#myform{
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.Comments_num{
+  text-decoration: none;
+  color:#000;
+}
+
+.Comments_num:hover{
+  font-weight: bolder;
+  color:#000;
+  text-decoration: none;
+
+}
+
+.comment{
+  border-bottom: 2px solid #f1f1f1;
+  margin-bottom: 3%;
+}
+
+.comment_2{
+  padding-bottom: 2%;
+  border-bottom: 2px solid #f1f1f1;
+  margin-bottom: 3%;
+}
+
+.comment_h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.comment_h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.form_before_text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.send_message{
+  margin-top: 1%;
+  font-family: 'Montserrat', sans-serif;
+  padding: .5%;
+  background: #000;
+  color: #fff;
+  border-radius: 0px;
+  border: 2px solid #fff;
+}
+.send_message:hover{
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* footer section starts here */
+
+.footer_text{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.footer{
+  padding-top: 4%;
+  padding-bottom: 3%;
+  background: #011a48;
+}
+
+.fb_icon, .tw_icon, .pin_icon, .in_icon, .insta_icon{
+  background: #011a48;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 4%;
+}
+
+.fb_icon{
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+}
+
+.fb_icon:hover, .tw_icon:hover, .pin_icon:hover, .in_icon:hover, .insta_icon:hover{
+  background: #ead00d;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #ead00d;
+}
+
+.footer_h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color:#fff;
+  margin-top: 0% !important;
+}
+.service_list{
+  line-height: 28px !important;
+  padding-left: 7%;
+}
+.service_list li{
+  color: #ead00d;
+}
+.service_list a{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+
+}
+.service_list a:hover{
+  text-decoration:none;
+  color: #fff;
+}
+.company_location{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.space{
+  height: 3px;
+}
+
+.long_whiteline{
+  width: 100%;
+  height: 1px;
+  margin: 3% auto;
+  background: #fff;
+}
+.copy_text{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.footer_link{
+  color: #ead00d;
+  text-decoration: none;
+}
+.footer_link:hover{
+  color: #ead00d;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
+}
+.navbar-default .navbar-nav>li>a {
+  text-align: center !important;
+}
+.form_name{
+  padding-bottom: 3%;
+}
+
+}
